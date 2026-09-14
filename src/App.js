@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import  { Greet }  from './components/greet';
 import GreetClass from './components/Greet';
+import Pro from './components/Pro.mjs';
 
 function App() {
   return (
@@ -11,6 +12,8 @@ function App() {
         <p>
           <Greet />
           <GreetClass />
+          <Pro name="Zidan" />
+          <Pro name="Pablovic" />
         </p>
         <a
           className="App-link"
