@@ -4,14 +4,19 @@ class Message extends Component {
   constructor ( ) {
     super( )
     this.state = { count: 0 }
-    this.getCount.bind(this)
-  }  
-  getCount ( ) {
-    this.setCount( prevState => { count: prevState.count + 1 } )
+    this.getCount = this.getCount.bind(this)
   }
 
-  render ( ) {
-    return <p>{this.count}</p>
+  getCount() {
+    this.setState(prevState => ({ count: prevState.count + 1 }))
+  }
+
+  render() {
+    return (
+      <div>
+        <p>{this.state.count}</p>
+        <button onClick={this.getCount}>Submit</button>
+    </div>)
   }
 }
 

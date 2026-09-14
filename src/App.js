@@ -4,7 +4,7 @@ import GreetClass from './components/Greet';
 import Pro from './components/Pro.mjs';
 import Cl from './components/cl'
 import  { Child }  from './components/children'
-
+import Message from './components/msg.jsx'
 
 function App() {
   return (
@@ -23,6 +23,7 @@ function App() {
             <li>last child</li>
           </ul>
         </Child>
+        <Message />
       </header>
     </div>
   );
