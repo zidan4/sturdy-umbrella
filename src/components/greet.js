@@ -1,5 +1,5 @@
 
-export default function Greet( ) {
+export function Greet( ) {
  return ( <h1> Functional component </h1>)
 }
 
