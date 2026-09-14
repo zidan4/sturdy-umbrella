@@ -3,7 +3,7 @@ import  { Greet }  from './components/greet';
 import GreetClass from './components/Greet';
 import Pro from './components/Pro.mjs';
 import Cl from './components/cl'
-import  Child  from './components/children'
+import  { Child }  from './components/children'
 
 function App() {
   return (

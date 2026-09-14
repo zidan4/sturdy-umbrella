@@ -1,5 +1,5 @@
-const Child = ( props ) => {
-  return (<p> {props.children} </p>)
-}
+const Child = (props) => {
+  return <p>{props.children}</p>;
+};
 
-export default Child
+export { Child };
