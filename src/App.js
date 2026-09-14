@@ -3,6 +3,7 @@ import './App.css';
 import  { Greet }  from './components/greet';
 import GreetClass from './components/Greet';
 import Pro from './components/Pro.mjs';
+import Cl from './components/cl'
 
 function App() {
   return (
@@ -12,8 +13,8 @@ function App() {
         <p>
           <Greet />
           <GreetClass />
-          <Pro name="Zidan" />
           <Pro name="Pablovic" />
+          <Cl name='eryc' />
         </p>
         <a
           className="App-link"
